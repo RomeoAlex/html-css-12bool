@@ -13,9 +13,11 @@
     line-height: 100px;
 }
 .nested-box{
+    align-self: center;
     background-color: yellowgreen;
-    color: white;
     height: 80px;
+    border: 1px solid white;
+
 }
 .nested-box p{
     line-height: 80px;
