@@ -1,0 +1,20 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* colonne */
+.col-1{
+    flex-basis: calc((100% / 12) * 1);
+}
