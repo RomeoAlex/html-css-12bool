@@ -1,4 +1,22 @@
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
 .box{
     background-color: #006cfa;
     height:100px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+.box p{
+    line-height: 100px;
+}
+.nested-box{
+    background-color: yellowgreen;
+    color: white;
+    height: 80px;
+}
+.nested-box p{
+    line-height: 80px;
 }
