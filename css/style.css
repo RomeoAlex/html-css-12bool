@@ -12,13 +12,17 @@
 .box p{
     line-height: 100px;
 }
+.nested{
+
+    padding: 20px;
+    
+}
 .nested-box{
-    align-self: center;
     background-color: yellowgreen;
-    height: 80px;
+    height: 60px;
     border: 1px solid white;
 
 }
 .nested-box p{
-    line-height: 80px;
+    line-height: 60px;
 }
